@@ -1,22 +1,22 @@
-function f1() {
-  var p = new Date();
-  var q = new Date("2024-12-25");
+function updateChristmasDate() {
+  const today = new Date();
+  const christmasDay = new Date("2024-12-25");
 
-  var variable = Math.round((q - p) / (1000 * 60 * 60 * 24));
+  const daysUntilChristmas = Math.round((christmasDay - today) / (1000 * 60 * 60 * 24));
 
-  var variable2 = document.getElementById("my-element");
-  variable2.innerText = variable;
+  const christmasElement = document.getElementById("my-element");
+  christmasElement.innerText = daysUntilChristmas;
 }
 
-function f2() {
-  var p = new Date();
-  var q = new Date("2025-01-01");
+function updateNYDate() {
+  const today = new Date();
+  const nyDay = new Date("2025-01-01");
 
-  var variable = Math.round((q - p) / (1000 * 60 * 60 * 24));
+  const daysUntilNY = Math.round((nyDay - today) / (1000 * 60 * 60 * 24));
 
-  var variable2 = document.getElementById("my-element2");
-  variable2.innerText = variable;
+  const nyElement = document.getElementById("my-element2");
+  nyElement.innerText = daysUntilNY;
 }
 
-f1();
-f2();
+updateChristmasDate();
+updateNYDate();
