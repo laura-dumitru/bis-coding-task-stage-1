@@ -67,7 +67,7 @@ main {
   max-width: 564px; /* backround image width */
   margin: 0 auto;
   margin-top: 1rem;
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
