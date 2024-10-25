@@ -63,11 +63,10 @@ main {
   background-image: url("https://i.pinimg.com/564x/32/f4/7a/32f47ae87c7c35085fdc349ed2231d99.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  height: 80dvh;
+  height: 80vh;
   max-width: 564px; /* backround image width */
   margin: 0 auto;
   margin-top: 1rem;
-  padding-bottom: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -79,6 +78,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #my-element,
