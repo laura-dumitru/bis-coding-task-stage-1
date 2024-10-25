@@ -10,3 +10,8 @@
   --grey: #605D5C;
   --white: #f3f3e2;
 }
+
+body {
+  background-color: var(--white);
+  padding-top: 1rem;
+}
