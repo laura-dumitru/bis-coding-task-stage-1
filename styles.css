@@ -48,6 +48,7 @@ button h2 {
 button {
   border: none;
   outline: none;
+  margin-top: 1rem;
   padding: 0.25rem;
   color: var(--grey);
   background-color: white;
