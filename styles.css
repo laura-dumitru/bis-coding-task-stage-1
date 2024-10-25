@@ -81,3 +81,13 @@ section {
   gap: 1rem;
 }
 
+#my-element,
+#my-element2,
+#my-element3 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: var(--grey);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
