@@ -83,7 +83,7 @@ section {
 #my-element,
 #my-element2,
 #my-element3 {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   font-size: 2rem;
   color: var(--grey);
   opacity: 0;
