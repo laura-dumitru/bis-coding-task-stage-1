@@ -15,3 +15,29 @@ body {
   background-color: var(--white);
   padding-top: 1rem;
 }
+
+h1, h2, p,
+#my-element,
+#my-element2,
+#my-element3 {
+  text-align: center;
+}
+
+h1,
+#my-element,
+#my-element2,
+#my-element3 {
+  font-family: "Fleur De Leah", cursive;
+  color: var(--grey);
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+h2, p {
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
